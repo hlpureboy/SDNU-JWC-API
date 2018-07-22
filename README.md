@@ -11,13 +11,13 @@
 
 ## 2.API使用说明
 
-> 下列api只提供get请求访问
+> aoi说明
 
 #### 2.1 api 列表
 
 |   *action*   | *method* | *args* | *return* |  *content*   |
 | :----------: | :------: | :----: | :------: | :----------: |
-|   /getKey    |   GET    | xh,pwd |   key    |   获取key    |
+|   /getKey    |   POST    | xh,pwd |   key    |   获取key    |
 |  /getScore   |   GET    |  key   |  Score   |   获取成绩   |
 | /getUserInfo |   GET    |  key   | userinfo | 获取个人信息 |
 |   /getPic    |   GET    |  key   |   pic    | 获取个人照片 |
